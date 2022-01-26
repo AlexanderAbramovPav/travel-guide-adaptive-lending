@@ -1,0 +1,5 @@
+.footer__link-container {
+  display: flex;
+  margin: 0;
+  align-items: center;
+}

@@ -1,0 +1,15 @@
+.place {
+  display: grid;
+  grid-template-areas:
+  "title link"
+  "image text";
+  margin: 80px 0 0 0;
+  padding: 0;
+  gap: 48px 40px;
+  width: 76.875vw;
+  max-width: 984px;
+}
+
+.place:first-of-type {
+  margin-top: 0;
+}
