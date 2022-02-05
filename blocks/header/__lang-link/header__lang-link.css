@@ -6,14 +6,23 @@
   color: #FFFFFF;
   margin: 0 18px 0 0;
   transition: opacity 0.3s linear;
+  align-self: flex-end;
+  text-decoration-line: none;
 }
 
 .header__lang-link:last-of-type {
   margin: 0;
-  text-decoration-line: none;
 }
 
 .header__lang-link:hover {
-  opacity: 0.5;
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 767px) {
+  .header__lang-link {
+    font-size: 18px;
+    line-height: 20px;
+  }
+
 }
 

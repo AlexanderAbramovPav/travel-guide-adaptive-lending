@@ -1,3 +1,16 @@
 .intro__item-container {
   width: 690px;
 }
+
+@media screen and (max-width: 1023px) {
+  .intro__item-container {
+    width: 720px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .intro__item-container {
+    width: calc(288px + (768 - 320) * ((100vw - 320px) / (768 - 320)));
+  }
+}
+

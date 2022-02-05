@@ -1,16 +1,68 @@
 .cover__overlay {
-  position: absolute;
+  background: url(../../../images/cover-trains.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: calc(1184 / 1280 * 100%);
   width: 100%;
-  background-color: #2A2C2F;
+  min-height: 740px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  color: #ffffff;
+  text-decoration: none;
+  z-index: 1;
+}
+
+.cover__overlay:before {
   opacity: 0.3;
+  background-color: #2a2c2f;
+  position: absolute;
+  min-height: 740px;
+  width: 100%;
+  height: 100%;
+  content: "";
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
   z-index: 1;
-  transition: opacity 0.3s linear;
+  transition: 0.3s linear;
 }
 
-.cover__overlay:hover {
+.cover__overlay:hover:before {
   opacity: 0.8;
+}
+
+@media screen and (max-width: 1279px) {
+  .cover__overlay {
+    min-height: calc(640px + (740 - 640) * ((100vw - 1024px) / (1280 - 1024)));
+  }
+
+  .cover__overlay:before {
+    min-height: calc(640px + (740 - 640) * ((100vw - 1024px) / (1280 - 1024)));
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .cover__overlay {
+    min-height: calc(480px + (640 - 480) * ((100vw - 768px) / (1024 - 768)));
+  }
+
+  .cover__overlay:before {
+    min-height: calc(480px + (640 - 480) * ((100vw - 768px) / (1024 - 768)));
+  }
+}
+
+
+@media screen and (max-width: 767px) {
+  .cover__overlay {
+    min-height: calc(200px + (480 - 200) * ((100vw - 320px) / (768 - 320)));
+  }
+
+  .cover__overlay:before {
+    min-height: calc(200px + (480 - 200) * ((100vw - 320px) / (768 - 320)));
+  }
 }

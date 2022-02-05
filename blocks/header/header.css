@@ -1,6 +1,21 @@
 .header {
   display: flex;
-  margin: 28px 48px 0 48px;
+  margin: 28px auto 0 auto;
   padding: 0;
+  width: calc((1184 / 1280) * 100%);
+  max-width: 1184px;
   justify-content: space-between;
+}
+
+
+@media screen and (max-width: 1023px) {
+  .header {
+    margin: 28px calc(24px + (48 - 24) * ((100vw - 768px) / (1024 - 768))) 0 calc(24px + (48 - 24) * ((100vw - 768px) / (1024 - 768)));
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header {
+    margin: calc(16px + (28 - 16) * ((100vw - 320px) / (768 - 320))) calc(16px + (24 - 16) * ((100vw - 320px) / (768 - 320))) 0 calc(16px + (24 - 16) * ((100vw - 320px) / (768 - 320)));
+  }
 }

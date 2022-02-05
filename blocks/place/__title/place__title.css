@@ -7,7 +7,25 @@
   color: #FFFFFF;
   display: flex;
   flex-wrap: wrap;
-  width: 35.9375vw;
   max-width: 460px;
   margin: 0;
+}
+
+
+@media screen and (max-width: 1023px) {
+  .place__title {
+    font-size: calc(42px + (72 - 42) * ((100vw - 768px) / (1024 - 768)));
+    line-height: calc(46px + (76 - 46) * ((100vw - 768px) / (1024 - 768)));
+    max-width: 340px;
+    width: calc(340 / 768 * 100vw);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .place__title {
+    font-size: calc(32px + (42 - 32) * ((100vw - 320px) / (768 - 320)));
+    line-height: calc(35px + (46 - 35) * ((100vw - 320px) / (768 - 320)));
+    margin: 0 16px 0 16px;
+    width: 288px;
+  }
 }

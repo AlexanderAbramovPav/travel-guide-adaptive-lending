@@ -1,5 +1,5 @@
 .cover__title {
-  margin: 0;
+  margin: 0 104px 0 104px;
   max-width: 560px;
   text-align: center;
   font-style: normal;
@@ -7,5 +7,15 @@
   font-size: 72px;
   line-height: 76px;
   color: #FFFFFF;
-  z-index: 2;
+  z-index: 1;
+}
+
+
+@media screen and (max-width: 767px) {
+  .cover__title {
+    margin: 0 calc(16px + (104 - 16) * ((100vw - 320px) / (768 - 320))) 0 calc(16px + (104 - 16) * ((100vw - 320px) / (768 - 320)));
+    max-width: calc(288px + (560 - 288) * ((100vw - 320px) / (768 - 320)));
+    font-size: calc(32px + (72 - 32) * ((100vw - 320px) / (768 - 320)));
+    line-height:calc(35px + (76 - 35) * ((100vw - 320px) / (768 - 320)));
+  }
 }
