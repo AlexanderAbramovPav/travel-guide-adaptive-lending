@@ -16,17 +16,16 @@
 
 @media screen and (max-width: 1279px) {
   .place {
-    padding: 0 48px;
     gap: 48px 32px;
-    width: calc (984 / 1280 * 100vw);
     max-width: 984px;
+    width: calc (928 / 1024 * 100vw);
   }
 }
 
 @media screen and (max-width: 1023px) {
   .place {
-    padding: 0 24px;
     gap: 48px 28px;
+    width: calc (720 / 768 * 100vw);
   }
 }
 
@@ -37,5 +36,6 @@
     margin: 50px 0 0 0;
     padding: 0;
     gap: 32px;
+    width: 100%;
   }
 }

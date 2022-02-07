@@ -2,10 +2,20 @@
   width: calc (984 / 1280 * 100vw);
   margin: 92px auto 0 auto;
   max-width: 984px;
+  padding: 0 48px;
+  justify-content: center;
+  justify-items: center;
+}
+
+@media screen and (max-width: 1023px) {
+  .places {
+    padding: 0 24px;
+  }
 }
 
 @media screen and (max-width: 767px) {
   .places {
     margin: 64px auto 0 auto;
+    padding: 0;
   }
 }

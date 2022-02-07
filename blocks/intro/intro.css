@@ -23,7 +23,7 @@
 @media screen and (max-width: 767px) {
   .intro {
     flex-wrap: wrap;
-    margin: 92px 16px 0 16px;
+    margin: 64px 16px 0 16px;
     width: calc(288px + (768 - 320) * ((100vw - 320px) / (768 - 320)));
   }
 }

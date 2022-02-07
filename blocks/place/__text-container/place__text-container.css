@@ -1,5 +1,6 @@
 .place__text-container {
   grid-area: text;
+  max-width: 484px;
 }
 
 
