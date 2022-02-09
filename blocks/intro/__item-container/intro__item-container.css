@@ -1,5 +1,6 @@
 .intro__item-container {
   width: 690px;
+  margin: 0;
 }
 
 @media screen and (max-width: 1023px) {
@@ -10,7 +11,8 @@
 
 @media screen and (max-width: 767px) {
   .intro__item-container {
-    width: calc(288px + (768 - 320) * ((100vw - 320px) / (768 - 320)));
+    max-width: 720px;
+    width: 100%;
   }
 }
 

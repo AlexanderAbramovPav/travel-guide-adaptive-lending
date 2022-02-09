@@ -7,7 +7,6 @@
 @media screen and (max-width: 767px) {
   .place__text-container {
     margin: 0 16px 0 16px;
-    width: 100%;
-    max-width: 768px;
+    max-width: 720px;
   }
 }
