@@ -1,23 +1,20 @@
-# Проект - Путешествия по России
+# Project - Travel in Russia
 
-Адаптивный под разные разрешения экранов сайт поможет выбрать интересные места в России для путешествий.
+An adaptive website for different screen resolutions will help you choose interesting places in Russia for travel.
 
-## Описание проекта
+## Project Description
 
-В период пандении границы многих стран стали закрыты, а многие жители России привыкли проводить отпуска в основном заграницей. Сейчас люди испытывают трудности с поиском интересных и красивых мест для путешествия. Данный сайт поможет решить проблему с выбором.
+During the pandemic, the borders of many countries became closed, and many residents of Russia got used to spending holidays mainly abroad. Now people are having difficulty finding interesting and beautiful places to travel. This site will help to solve the problem with the choice.
 
-## Используемые технологии
+## Technologies used
 
-* Hyper Text Markup Language (HTML) – язык разметки гипертекста.
-* Cascading Style Sheets (CSS) — каскадные таблицы стилей — формальный язык описания внешнего вида документа, написанного с использованием языка разметки. CSS используется для задания цветов, шрифтов, расположения отдельных блоков и других аспектов представления внешнего вида веб-страниц.
+* Hyper Text Markup Language (HTML) – hypertext markup language.
+* Cascading Style Sheets (CSS) — cascading style sheets are a formal language for describing the appearance of a document written using a markup language. CSS is used to specify colors, fonts, the location of individual blocks and other aspects of the presentation of the appearance of web pages.
 
-## Системные требования
+## System requirements
 
-HTMLv5
+HTMLv5, CSS3
 
-## Планы по доработке
+## Improvement plans
 
-Заменить href в ссылках с "#" на реальные адреса сайтов
-
-## Ссылка на GitHub Pages
-https://alexanderabramovpraktikum.github.io/russian-travel/
+Set multilaguage for foreign visitors
